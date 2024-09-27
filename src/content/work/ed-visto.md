@@ -9,7 +9,7 @@ tags:
   - Ux Project Lead
 ---
 
-This design was conceived as part of my participation in the **InTech MOM**program, which took place from June to December 2023.
+This design was conceived as part of my participation in the **InTech MOM** program, which took place from June to December 2023.
 
 _InTech MOM_ is a program that combines theory and practice, and in which participants:
 

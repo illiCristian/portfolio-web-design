@@ -1,7 +1,7 @@
 ---
-title: Markdown Mystery Tour
+title: Alfa 2006 Business Argentina
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/alfa2006.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
