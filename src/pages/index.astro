@@ -42,10 +42,9 @@ const projects = (await getCollection("work"))
             <Pill><Illustrator /> Illustrator</Pill>
           </div>
         </Hero>
-
         <img
           alt="Marianela Chaile smiling in a red plaid shirt and tortoise shell glasses"
-          width="300"
+          width="400"
           height="500"
           src="/public/assets/img2.JPG"
         />
@@ -81,34 +80,6 @@ const projects = (await getCollection("work"))
             View All
             <Icon icon="arrow-right" size="1.2em" />
           </CallToAction>
-        </div>
-      </section>
-
-      <section class="section with-background bg-variant">
-        <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Mentions</h3>
-          <p>
-            I have been fortunate enough to receive praise for my work in
-            several publications. Take a look below to learn more.
-          </p>
-        </header>
-
-        <div class="gallery">
-          <Grid variant="small">
-            {
-              [
-                "Medium",
-                "BuzzFeed",
-                "The Next Web",
-                "awwwards.",
-                "TechCrunch",
-              ].map((brand) => (
-                <li class="mention-card">
-                  <p>{brand}</p>
-                </li>
-              ))
-            }
-          </Grid>
         </div>
       </section>
     </main>
@@ -153,7 +124,7 @@ const projects = (await getCollection("work"))
 
     .hero img {
       aspect-ratio: 3 / 4;
-      border-radius: 4.5rem;
+
       object-fit: cover;
     }
   }
