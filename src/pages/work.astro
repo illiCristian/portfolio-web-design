@@ -26,8 +26,10 @@ const projects = (await getCollection("work")).sort(
       />
       <Grid variant="offset">
         {
-          projects.map((project) => (
-            <li>
+          projects.map((project, index) => (
+            <li
+              class="animate-fade-down animate-once animate-duration-[1500ms] animate-delay-200"
+            >
               <PortfolioPreview project={project} />
             </li>
           ))

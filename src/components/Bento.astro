@@ -1,0 +1,42 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section
+  class={`
+w-full max-w-[1400px] grid grid-cols-10 auto-rows-[25rem] gap-4 mx-auto p-20 col-span-5`}
+>
+  <BentoItem
+    class="col-span-10 md:col-span-4"
+    title="Alfa 2006 Business Argentina"
+  >
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0
+      -z-10 h-full w-full
+      bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+      style="background-image: url('/public/assets/alfa20062.jpg');"
+    >
+    </div>
+    <p slot="content" class="max-w-xl text-base md:text-lg">
+      <strong>
+        I designed a clean, professional visual identity for Alfa 2006</strong
+      > to showcase their agricultural products and services, aiming to boost online
+      credibility and trust with investors and buyers.
+    </p>
+  </BentoItem>
+  <BentoItem class="col-span-10 md:col-span-6" title="2">
+    <div
+      slot="image"
+      class="background transition-scale absolute bottom-0 left-0 top-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
+      style="background-image: url('/public/assets/technical.jpg');"
+    >
+      <div
+        class="overlay absolute bottom-0 left-0 right-0 top-0 h-full w-full bg-black bg-opacity-50"
+      >
+      </div>
+    </div>
+  </BentoItem>
+  <BentoItem class="col-span-10 md:col-span-6" title="3" />
+  <BentoItem class="col-span-10 md:col-span-4" title="4" />
+</section>
