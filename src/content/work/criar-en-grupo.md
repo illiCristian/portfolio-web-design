@@ -1,5 +1,5 @@
 ---
-title: Criar en grupo
+title: Group parenting
 publishDate: 2019-10-02 00:00:00
 img: /assets/criarEnGrupo.png
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.

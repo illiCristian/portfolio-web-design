@@ -1,37 +1,35 @@
 ---
-import Icon from "./Icon.astro";
 import Icon1 from "../../public/assets/svg/icon1.astro";
 import Icon2 from "../../public/assets/svg/bosquejo.astro";
 import Icon3 from "../../public/assets/svg/digitalDesign.astro";
+
+import { getI18n } from "../i18n";
+
+const { currentLocale = "en" } = Astro;
+const i18n = getI18n({ currentLocale });
 ---
 
 <section class="box skills">
   <div class="stack gap-2 lg:gap-4">
     <!--  <Icon icon="uxui" color="var(--accent-regular)" size="2.5rem" gradient /> -->
     <Icon1 />
-    <h2>UX/UI Design</h2>
+    <h2>{i18n.UX_UI_DESIGNER_TITLE}</h2>
     <p>
-      I design intuitive and user-centered interfaces for websites and apps,
-      blending usability with visual appeal to enhance user experiences.
+      {i18n.UX_UI_DESIGNER_DESCRIPTION}
     </p>
   </div>
   <div class="stack gap-2 lg:gap-4">
     <Icon3 />
 
-    <h2>Digital Design</h2>
+    <h2>{i18n.Digital_Designer_TITLE}</h2>
     <p>
-      I craft optimized visuals for digital platforms, ensuring a consistent and
-      seamless experience across different devices and screen sizes.
+      {i18n.Digital_Designer_DESCRIPTION}
     </p>
   </div>
   <div class="stack gap-2 lg:gap-4">
     <Icon2 />
-    <h2>Print Design</h2>
-    <p>
-      I create visually impactful designs for printed materials like posters,
-      brochures, and packaging, focusing on technical precision and print
-      quality.
-    </p>
+    <h2>{i18n.PRINT_DESIGNER_TITLE}</h2>
+    {i18n.PRINT_DESIGNER_DESCRIPTION}
   </div>
 </section>
 

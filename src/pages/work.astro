@@ -7,10 +7,16 @@ import ContactCTA from "../components/ContactCTA.astro";
 import PortfolioPreview from "../components/PortfolioPreview.astro";
 import Hero from "../components/Hero.astro";
 import Grid from "../components/Grid.astro";
+import { getI18n } from "../i18n";
 
 const projects = (await getCollection("work")).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
+
+const { currentLocale = "en" } = Astro;
+const i18n = getI18n({ currentLocale });
+
+console.log(currentLocale);
 ---
 
 <BaseLayout
@@ -26,10 +32,8 @@ const projects = (await getCollection("work")).sort(
       />
       <Grid variant="offset">
         {
-          projects.map((project, index) => (
-            <li
-              class="animate-fade-down animate-once animate-duration-[1500ms] animate-delay-200"
-            >
+          projects.map((project) => (
+            <li class="animate-fade-down animate-once animate-duration-[1500ms] animate-delay-200">
               <PortfolioPreview project={project} />
             </li>
           ))
