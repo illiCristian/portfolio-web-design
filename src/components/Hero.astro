@@ -4,9 +4,19 @@ interface Props {
   subtitle?: string;
   tagline?: string;
   align?: "start" | "center";
+  webLink?: string;
+  figmaLink?: string;
+  behance?: string[];
 }
 
-const { align = "center", tagline, title, subtitle } = Astro.props;
+const {
+  align = "center",
+  tagline,
+  title,
+  subtitle,
+  webLink,
+  figmaLink,
+} = Astro.props;
 ---
 
 <div class:list={["hero stack gap-4", align]}>
@@ -19,7 +29,31 @@ const { align = "center", tagline, title, subtitle } = Astro.props;
     }
     {tagline && <p class="tagline">{tagline}</p>}
   </div>
+
   <slot />
+
+  <div class="flex flex-1 gap-3 flex-col text-sm">
+    {
+      webLink && (
+        <div class="flex gap-1">
+          <p class="font-bold">Live Website:</p>
+          <a class="font-semibold" href={webLink} target="_blank">
+            Visit Website
+          </a>
+        </div>
+      )
+    }
+    {
+      figmaLink && (
+        <div class="flex gap-1">
+          <p class="font-bold">Design on Figma:</p>
+          <a class="font-semibold" href={figmaLink} target="_blank">
+            Check the Figma file
+          </a>
+        </div>
+      )
+    }
+  </div>
 </div>
 
 <style>
@@ -30,7 +64,7 @@ const { align = "center", tagline, title, subtitle } = Astro.props;
 
   .title,
   .tagline {
-    max-width: 37ch;
+    max-width: 30ch;
     margin-inline: auto;
   }
 
