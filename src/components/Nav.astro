@@ -2,14 +2,9 @@
 import Icon from "./Icon.astro";
 import ThemeToggle from "./ThemeToggle.astro";
 import type { iconPaths } from "./IconPaths";
-import LanguageToggle from "./LanguageToggle.astro";
-import Button from "./Button";
+import { getRelativeLocaleUrl } from "astro:i18n";
+
 /** Main menu items */
-const textLinks: { label: string; href: string }[] = [
-  { label: "Home", href: "/" },
-  { label: "Work", href: "/work/" },
-  { label: "About", href: "/about/" },
-];
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: {
@@ -34,11 +29,27 @@ import {
   useTranslatedPath,
 } from "../i18n/utils";
 import LanguageSelector from "./LanguageSelector.astro";
+import { getI18n } from "../i18n";
 
 const lang = getLangFromUrl(Astro.url);
-
+const { currentLocale } = Astro;
 const t = useTranslations(lang);
-const translatePath = useTranslatedPath(lang);
+
+const i18n = getI18n({ currentLocale });
+const textLinks: { label: string; href: string }[] = [
+  {
+    label: i18n.NAV_HOME,
+    href: getRelativeLocaleUrl(currentLocale ?? "", t("nav.home")),
+  },
+  {
+    label: i18n.NAV_WORKS,
+    href: getRelativeLocaleUrl(currentLocale ?? "", t("nav.work")) || "/",
+  },
+  {
+    label: i18n.NAV_ABOUT,
+    href: getRelativeLocaleUrl(currentLocale ?? "", t("nav.about")),
+  },
+];
 ---
 
 <nav>
@@ -130,11 +141,12 @@ const translatePath = useTranslatedPath(lang);
       </div>
 
       <div class="theme-toggle">
+        <!--  -->
         <ThemeToggle />
       </div>
-      <div>
+      <!--  <div>
         <LanguageSelector />
-      </div>
+      </div> -->
     </div>
   </div>
 </nav>

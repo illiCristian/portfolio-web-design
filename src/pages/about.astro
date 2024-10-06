@@ -2,76 +2,95 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import ContactCTA from "../components/ContactCTA.astro";
-import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout
   title="About | Marianela Chaile"
   description="About Marianela Chaile Lorem Ipsum"
 >
-  <div class="stack gap-20">
-    <main class="wrapper about">
-      <Hero
-        title="About"
-        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-      >
+  <div class="container mx-auto px-4 py-8 max-w-4xl">
+    <h1 class="text-4xl font-bold text-center mb-6">About me</h1>
+
+    <p class="text-xl text-center mb-12">
+      Hi! I'm Marianela Chaile, a passionate digital designer with 7 years of
+      experience in digital design, including 3 years specializing in UX/UI. My
+      background in Industrial Design, combined with my expertise in UX/UI,
+      allows me to seamlessly blend aesthetics with functionality, creating
+      intuitive, efficient, and accessible products.
+    </p>
+
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div class="w-full md:w-2/3">
         <img
-          width="1553"
-          height="873"
-          src="/assets/at-work.jpg"
-          alt="Marianela Chaile at work with a colleague"
+          src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728067987/cldsehnef7easvqvt03a.jpg"
+          alt="Marianela"
+          width={300}
+          height={300}
+          class="rounded-lg shadow-lg mx-auto"
         />
-      </Hero>
+      </div>
 
-      <section>
-        <h2 class="section-title">Background</h2>
-        <div class="content">
-          <p>
-            Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a>
-            makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum
-            vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra
-            diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus
-            in ornare.
-          </p>
-          <p>
-            Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget
-            gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat
-            pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh
-            venenatis cras sed felis eget velit. Id diam vel quam elementum
-            pulvinar etiam non.
-          </p>
-          <p>
-            Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut
-            sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor
-            posuere ac ut consequat semper viverra. Viverra accumsan in nisl
-            nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-            pretium fusce.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h2 class="section-title">Education</h2>
-        <div class="content">
-          <p>Corporis voluptates tenetur laudantium.</p>
-        </div>
-      </section>
-      <section>
-        <h2 class="section-title">Skills</h2>
-        <div class="content">
-          <p>officia unde omnis</p>
-        </div>
-      </section>
-    </main>
+      <div class="w-full md:w-2/3">
+        <p class="mb-4">
+          I’m driven by a desire to create solutions that positively impact
+          people's lives. My approach is centered around three key pillars:
+        </p>
 
-    <ContactCTA />
+        <ul class="list-disc pl-6 mb-4">
+          <li class="mb-4">
+            <strong class="font-bold text-lg">
+              Understanding user needs:</strong
+            > I empathize with users to deeply understand their needs and frustrations,
+            translating these insights into relevant and meaningful solutions.
+          </li>
+          <li class="mb-4">
+            <strong class="font-bold text-lg">
+              Creative problem solving:</strong
+            >
+            My holistic and project-oriented vision helps me find innovative solutions
+            to product challenges.
+          </li>
+          <li>
+            <strong class="font-bold text-lg"> Team collaboration:</strong> I thrive
+            in collaborative environments and enjoy working with teams to deliver
+            high-quality products.
+          </li>
+        </ul>
+
+        <!--   <h2 class="text-2xl font-semibold mt-6 mb-3">Logros destacados:</h2>
+        <ul class="list-disc pl-6 mb-4">
+          <li>
+            Desarrollar una app de crianza que quedó entre las diez mejores de
+            mi clase.
+          </li>
+          <li>Contribuir al proyecto de Edvisto en el programa InTech MOM.</li>
+          <li>
+            Implementar principios de usabilidad, accesibilidad e innovación en
+            todos mis proyectos.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold mt-6 mb-3">
+          Buscando oportunidades para:
+        </h2>
+        <ul class="list-disc pl-6 mb-4">
+          <li>
+            Formar parte de un equipo de desarrollo apasionado por crear
+            productos que hagan la diferencia.
+          </li>
+          <li>Aportar mi creatividad y experiencia a nuevos proyectos.</li>
+          <li>Seguir aprendiendo y creciendo como Product Designer.</li>
+        </ul> -->
+      </div>
+    </div>
   </div>
 </BaseLayout>
 
 <style>
   .about {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     gap: 3.5rem;
   }
 
@@ -79,6 +98,7 @@ import Hero from "../components/Hero.astro";
     margin-top: 1.5rem;
     border-radius: 1.5rem;
     box-shadow: var(--shadow-md);
+    width: 50%;
   }
 
   section {
@@ -86,6 +106,7 @@ import Hero from "../components/Hero.astro";
     flex-direction: column;
     gap: 0.5rem;
     color: var(--gray-200);
+    width: 50%;
   }
 
   .section-title {

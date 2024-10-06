@@ -8,12 +8,12 @@ export const LANGUAGES: Record<
 > = {
   en: {
     code: "en",
-    name: "English",
+    name: "En",
     flag: UnitedStatesFlag,
   },
   es: {
     code: "es",
-    name: "Español",
+    name: "Es",
     flag: SpainFlag,
   },
 };
@@ -23,48 +23,26 @@ export const showDefaultLang = false;
 
 export const ui = {
   es: {
-    "nav.inicio": "Inicio",
-    "nav.vota": "Vota",
-    "nav.info": "Información",
-    "nav.archivo": "Archivo",
-    "nav.legal": "Aviso Legal",
-    "nav.privacidad": "Privacidad",
-    "nav.cookies": "Cookies",
+    "nav.home": "/",
+    "nav.trabajos": "trabajos",
+    "nav.sobremi": "sobremi",
   },
   en: {
-    "nav.inicio": "Home",
-    "nav.vota": "Vote",
-    "nav.info": "Information",
-    "nav.archivo": "Archive",
-    "nav.legal": "Legal Notice",
-    "nav.privacidad": "Privacy",
-    "nav.cookies": "Cookies",
+    "nav.home": "/",
+    "nav.work": "work",
+    "nav.about": "about",
   },
 } as const;
 
 export const routes = {
   es: {
-    vota: "vota",
-    info: "info",
-    archivo: "archivo",
-    "aviso-legal": "aviso-legal",
-    privacidad: "privacidad",
-    cookies: "cookies",
+    home: "/",
+    trabajos: "trabajos",
+    sobremi: "sobremi",
   },
   en: {
-    vota: "vote",
-    info: "information",
-    archivo: "archive",
-    "aviso-legal": "legal-notice",
-    privacidad: "privacy",
-    cookies: "cookies",
-  },
-  ca: {
-    vota: "vota",
-    info: "informacio",
-    archivo: "arxiu",
-    "aviso-legal": "avis-legal",
-    privacidad: "privacitat",
-    cookies: "cookies",
+    home: "/",
+    work: "work",
+    about: "about",
   },
 };

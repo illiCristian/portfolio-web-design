@@ -9,27 +9,21 @@ const { currentLocale = "en" } = Astro;
 const i18n = getI18n({ currentLocale });
 ---
 
-<section class="box skills">
-  <div class="stack gap-2 lg:gap-4">
+<section
+  class="container flex justify-evenly items-center h-[198px] rounded-3xl shadow border border-[#e3e6ee]"
+>
+  <div class="gap-2 lg:gap-4 flex flex-col justify-center items-center">
     <!--  <Icon icon="uxui" color="var(--accent-regular)" size="2.5rem" gradient /> -->
     <Icon1 />
-    <h2>{i18n.UX_UI_DESIGNER_TITLE}</h2>
-    <p>
-      {i18n.UX_UI_DESIGNER_DESCRIPTION}
-    </p>
+    <h3 class="text-sm md:text-2xl">Figma</h3>
   </div>
-  <div class="stack gap-2 lg:gap-4">
+  <div class="gap-2 lg:gap-4 flex flex-col justify-center items-center">
     <Icon3 />
-
-    <h2>{i18n.Digital_Designer_TITLE}</h2>
-    <p>
-      {i18n.Digital_Designer_DESCRIPTION}
-    </p>
+    <h3 class="text-sm md:text-2xl">Illustrator</h3>
   </div>
-  <div class="stack gap-2 lg:gap-4">
+  <div class="gap-2 lg:gap-4 flex flex-col justify-center items-center">
     <Icon2 />
-    <h2>{i18n.PRINT_DESIGNER_TITLE}</h2>
-    {i18n.PRINT_DESIGNER_DESCRIPTION}
+    <h3 class="text-sm md:text-2xl">Photoshop</h3>
   </div>
 </section>
 
@@ -45,7 +39,8 @@ const i18n = getI18n({ currentLocale });
   .skills {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+
+    gap: 2rem;
   }
 
   .skills h2 {

@@ -9,5 +9,10 @@
   "PRINT_DESIGNER_DESCRIPTION":"Creo diseños visualmente impactantes para materiales impresos como carteles, folletos y empaques, enfocándome en la precisión técnica y la calidad de impresión.",
   "SELECTED_WORKS":"Trabajos Seleccionados",
   "TECHNICAL_ASSESMENT_TITLE":"Pruebas Técnicas",
-  "TECHNICAL_ASSESMENT_DESCRIPTION":"Realicé una serie de pruebas técnicas de diseño para demostrar mi experiencia en diseño UX y UI, así como mi capacidad para entregar trabajo de alta calidad dentro de plazos ajustados. Las pruebas se realizaron bajo estrictas limitaciones de tiempo: una de 24 horas, otra de 4 horas y la última de 3 horas. Cada prueba desafió mi habilidad para comprender rápidamente los requisitos del proyecto, crear experiencias de usuario efectivas y diseñar interfaces visualmente atractivas."
+  "TECHNICAL_ASSESMENT_DESCRIPTION":"Realicé una serie de pruebas técnicas de diseño para demostrar mi experiencia en diseño UX y UI, así como mi capacidad para entregar trabajo de alta calidad dentro de plazos ajustados. Las pruebas se realizaron bajo estrictas limitaciones de tiempo: una de 24 horas, otra de 4 horas y la última de 3 horas. Cada prueba desafió mi habilidad para comprender rápidamente los requisitos del proyecto, crear experiencias de usuario efectivas y diseñar interfaces visualmente atractivas.",
+  "NAV_HOME":"Inicio",
+  "NAV_ABOUT":"Sobre Mí",
+  "NAV_WORKS":"Trabajos",
+   "MY_WORK":"Mi Trabajo",
+  "MY_WORK_DESCRIPTION": "Vea mis proyectos más recientes a continuación para hacerse una idea de mi experiencia anterior."
 }
