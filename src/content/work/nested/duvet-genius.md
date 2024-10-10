@@ -14,19 +14,19 @@ tags:
 <div class="flex justify-between gap-2">
 
   <div class="flex flex-col items-center">
-    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728415208/marian_portfolio/znxco0px0ulopwvgczfj.jpg" alt="Imagen 1">
+    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728568420/marian_portfolio/ygwzjarzlxasawzko8kl.jpg" alt="Imagen 1">
     <div class="flex flex-row items-center justify-center">
       <a href="https://www.behance.net/gallery/201225121/Challenge-Rediseno-de-Landing-Page" target="_blank" class="mt-3 font-bold">Take a quick Look </a>
     </div>
   </div>
 
   <div class="flex flex-col items-center">
-    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728415208/marian_portfolio/awhq3g92bxhymja2bn7m.jpg" alt="Imagen 2">
+    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728568421/marian_portfolio/zzhpjzw9es55ssdj63oh.jpg" alt="Imagen 2">
     <a target="_blank" class="mt-3 font-bold" href="https://www.behance.net/gallery/201220111/Challenge-APP-para-gestion-de-proyectos">Take a quick Look</a>
   </div>
 
   <div class="flex flex-col items-center">
-    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728415208/marian_portfolio/orgnnlqglm86vqra897x.jpg" alt="Imagen 3">
+    <img class="w-full" src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728568420/marian_portfolio/yf1kziap1erxnvqwhzda.jpg" alt="Imagen 3">
     <a target="_blank" href="https://www.behance.net/gallery/200898703/Challenge-Landing-page" class="mt-3 font-bold">Take a quick Look</a>
   </div>
 
