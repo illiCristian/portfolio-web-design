@@ -4,8 +4,7 @@ publishDate: 2019-10-02 00:00:00
 img: /assets/criarEnGrupo.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  Criar en Grupo is an app designed for parents, allowing them to find and connect with an online community. It provides a space to share experiences, ask questions, and discuss all aspects of motherhood and parenting, offering support through a network of like-minded individuals.
 tags:
   - UX/UI Design
   - Branding
@@ -54,3 +53,5 @@ This division strategy allowed for the optimization of the development process a
 <img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/nwc1dgqgpoz2sjelegd2.png">
 <img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/f4wer3li0sxcs67txw8o.png">
 <img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/ha20zuojgaej2zq7yuvb.png">
+
+<strong>Design on Figma:</strong><a target="_blank" href="https://www.figma.com/proto/8WaaZOdcCT95SpkZydJVcw/prototipo-funcional?node-id=58-14873&p=f&t=sr2vQmPEhGp60hDY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A14873&show-proto-sidebar=1"> Check the Figma file</a><br>

@@ -87,4 +87,4 @@ This division strategy allowed for the optimization of the development process a
 <img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728567225/marian_portfolio/la2aicq52bkikrocqjax.png">
 <img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1728566510/marian_portfolio/uhzchnzdnpnndtcia9po.jpg">
 
-<strong>Design on Figma:</strong><a target="_blank" href="https://www.figma.com/proto/WQM6VwCcMhLtXXnMvU3xxL/Edvisto-3.0-(Copy)?type=design&node-id=15-1423&t=Xc5ENZO1OrIMjm4f-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A1423&show-proto-sidebar=1"> Figma</a><br>
+<strong>Design on Figma:</strong><a target="_blank" href="https://www.figma.com/proto/WQM6VwCcMhLtXXnMvU3xxL/Edvisto-3.0-(Copy)?type=design&node-id=15-1423&t=Xc5ENZO1OrIMjm4f-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A1423&show-proto-sidebar=1"> Check the Figma file</a><br>
