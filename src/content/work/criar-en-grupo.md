@@ -1,24 +1,56 @@
 ---
 title: Group parenting
 publishDate: 2019-10-02 00:00:00
-img: /assets/criarEnGrupo.png
+img: /assets/criarEnGrupo.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   We developed brand positioning and design assets for the launch
   of a new colored water product.
 tags:
-  - Design
+  - UX/UI Design
   - Branding
-
-figmaLink: https://www.figma.com/design/I7dIQlFi1qozZjT5qwb1nS/ALFA2006?node-id=0-1&t=UElrv7hP1Up0F2Dt-1
+  - Research
+figmaLink: https://www.figma.com/proto/8WaaZOdcCT95SpkZydJVcw/prototipo-funcional?node-id=58-14873&p=f&t=sr2vQmPEhGp60hDY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A14873&show-proto-sidebar=1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+##### About the app
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Parenting is a space that revitalizes living in a group, supported and accompanied by others. Sharing the experience of parenting with a group that forms a support network helps to address the loneliness imposed by modern life. This is how "Criar en Grupo" was born, an app that allows you to find your online community. Here, you can share experiences, questions, and everything related to motherhood and parenting.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Because there’s nothing more powerful than feeling supported through the journey of raising a child.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+##### The Problem
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Online groups and communities have emerged to fulfill the existing need for a parenting tribe. However, the services currently available are solely focused on moms and pregnancy tracking, without considering the diversity of family types.
+
+##### The Design Process
+
+<img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/msvc3tf9740a75dqlrvx.png">
+
+In the design process, the Design Thinking methodology was utilized, guiding us through empathizing, defining, ideating, prototyping, and testing.
+
+We began with benchmarking and user interviews to validate user needs and insights. From there, we developed an MVP, which served as the foundation for refining our solutions.
+
+User flows and information architecture were carefully diagrammed, followed by the creation of wireframes and an interactive prototype. This approach enabled us to iterate quickly and effectively, ensuring that the final product meets the users' needs in an intuitive and engaging way.
+
+<img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/xhq20ifj7k6gygvouium.jpg">
+
+##### The Solution
+
+After conducting surveys to understand user needs:
+
+- Low-fidelity and high-fidelity prototypes were developed.
+- Testing was carried out to ensure the usability and effectiveness of the prototypes.
+
+The development was divided into four specialized teams:
+
+- One team was responsible for designing the login process.
+- Another team focused on designing the content feed.
+- A third team dedicated itself to developing the search module.
+- The final team, of which I was a part, concentrated on creating and analyzing content within the interactive field journal.
+
+This division strategy allowed for the optimization of the development process and ensured meticulous attention to every aspect of the proposed solution.
+
+<img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/nwc1dgqgpoz2sjelegd2.png">
+<img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/f4wer3li0sxcs67txw8o.png">
+<img src="https://res.cloudinary.com/dcxejdzab/image/upload/v1737419894/marian_portfolio/ha20zuojgaej2zq7yuvb.png">
